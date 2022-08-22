@@ -1,10 +1,8 @@
-#Github Action
-name:My First Github Action
+name: hello-world
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World"
-        run: echo "this is step 2"
-       
+      - name: my-step
+        run: echo "Hello World!"
