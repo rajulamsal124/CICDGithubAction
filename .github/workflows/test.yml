@@ -1,0 +1,10 @@
+#Github Action
+name:Github Action
+on: [push]
+jobs:
+  print-hello-world:
+    runs_on: ubuntu-latest
+    steps:
+      -run: echo "hello world"
+      -run: echo "this is step number 2"
+
