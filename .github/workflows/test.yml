@@ -1,8 +1,8 @@
 name: hello-world
 on: push
 jobs:
-  my-job:
+  print-hello-world:
     runs-on: ubuntu-latest
     steps:
-        -print: echo "fuck you"
+        -run: echo "fuck you"
         -run: echo "Hello World!"
