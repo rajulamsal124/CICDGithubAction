@@ -3,6 +3,6 @@ on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
-    -steps:
+    steps:
         -print: echo "fuck you"
         -run: echo "Hello World!"
